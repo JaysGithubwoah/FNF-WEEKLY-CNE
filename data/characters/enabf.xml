@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="ena_bf" flipX="true" isPlayer="true" icon="icon-ena-bf" color="#88ECFF" holdTime="6.1">
+	<anim name="idle" anim="ena bf idle0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="ena bf up0" x="-32.5" y="16" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="ena bf down0" x="47.5" y="-104" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="ena bf left0" x="22.5" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="ena bf right0" x="-51" y="-5" fps="24" loop="false"/>
+</character>
