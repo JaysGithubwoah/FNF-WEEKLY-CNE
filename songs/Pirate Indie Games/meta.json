@@ -1,16 +1,16 @@
 {
 	"opponentModeAllowed": true,
-	"icon": "icon-spamton",
 	"difficulties": [
 		"Hard"
 	],
+	"icon": "icon-spamton",
 	"parsedColor": -1,
-	"color": "#FFFFFF",
-	"name": "Pirate Indie Games",
 	"coopAllowed": true,
+	"name": "Pirate Indie Games",
+	"color": "#FFFFFF",
 	"stepsPerBeat": 4,
 	"displayName": "Pirate Indie Games",
-	"beatsPerMeasure": 4,
 	"needsVoices": true,
+	"beatsPerMeasure": 4,
 	"bpm": 132
 }
