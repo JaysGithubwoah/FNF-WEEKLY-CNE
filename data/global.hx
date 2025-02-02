@@ -1,8 +1,10 @@
 import funkin.backend.utils.NdllUtil;
 import funkin.backend.utils.WindowUtils;
+import funkin.menus.BetaWarningState;
 
 static var customStates:Map<FlxState, String> = [
-    TitleState => 'WeeklyTitle',
+    BetaWarningState => 'WeeklyIntro',
+    MainMenuState => 'WeeklyMenu',
 ];
 
 function new(){

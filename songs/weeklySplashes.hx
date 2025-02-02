@@ -1,1 +1,0 @@
-function onPostNoteCreation(e) e.note.splash = "weekly"; //freakin weekly splashes brah!

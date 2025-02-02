@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-splashes>
-<splashes sprite="game/splashes/weekly" alpha="1" scale="0.80"> 
+<splashes sprite="game/splashes/default" alpha="1" scale="0.9"> 
 	<strum id="0"> <!-- LEFT -->
 		<anim name="splash purple" anim="note splash purple" fps="24" x="0" y="0" />
 	</strum>
