@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="farmergf" x="-20" y="24" icon="gf" color="#A5004D">
+	<anim name="danceLeft" anim="GF FARMER0" x="0" y="0" fps="24" loop="false" indices="1..12"/>
+	<anim name="danceRight" anim="GF FARMER0" x="0" y="0" fps="24" loop="false" indices="14..28"/>
+</character>

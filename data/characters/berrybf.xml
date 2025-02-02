@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="berrybf" flipX="true" isPlayer="true" icon="icon-bf-berry" color="#FF7967">
+	<anim name="singDOWN" anim="bfdown0" x="0" y="-2" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="bfleft0" x="0" y="-2" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="bfright0" x="0" y="-2" fps="24" loop="false"/>
+	<anim name="singUP" anim="bfup0" x="0" y="-2" fps="24" loop="false"/>
+	<anim name="idle" anim="bfidle0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="bfmiss0" x="-1" y="-2" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="bfmiss0" x="-1" y="-2" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="bfmiss0" x="-1" y="-2" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="bfmiss0" x="-1" y="-2" fps="24" loop="false"/>
+</character>

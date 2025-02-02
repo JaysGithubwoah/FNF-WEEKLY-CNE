@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"Hard"
+	],
+	"icon": "icon-ramsay",
+	"parsedColor": -2964082,
+	"coopAllowed": true,
+	"name": "Chef Blasting",
+	"color": "#D2C58E",
+	"customValues": {},
+	"stepsPerBeat": 4,
+	"displayName": "Chef Blasting",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 140
+}

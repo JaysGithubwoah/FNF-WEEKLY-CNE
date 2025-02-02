@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="bg/peggle/" zoom="1.1">
+	<gf/>
+	<dad/>
+	<sprite x="177" y="37" sprite="tweakingpeggle" name="bg"/>
+	<bf scale="1.1" x="513" y="50"/>
+	<combo/>
+	<sprite x="178" y="72" sprite="susPegle" scale="1.1" name="border"/>
+</stage>

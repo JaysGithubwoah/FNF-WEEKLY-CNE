@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "icon-john",
+	"difficulties": [
+		"Hard"
+	],
+	"parsedColor": -13848351,
+	"color": "#2CB0E1",
+	"name": "Johnny Round",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Johnny Round",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 106
+}

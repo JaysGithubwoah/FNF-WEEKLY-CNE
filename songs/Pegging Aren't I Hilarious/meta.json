@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 110,
+	"difficulties": [
+		"Hard"
+	],
+	"needsVoices": true,
+	"parsedColor": -11034959,
+	"displayName": "Pegging Aren't I Funny",
+	"icon": "icon-bf-peggle",
+	"name": "Pegging Aren't I Hilarious",
+	"color": "#579EB1",
+	"customValues": {}
+}

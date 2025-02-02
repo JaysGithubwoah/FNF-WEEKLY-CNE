@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="bg/chefblast/" zoom="0.65">
+	<sprite x="-150" y="-35" sprite="kitchen" scale="1.2" name="kitchen"/>
+	<sprite x="-270" y="910" sprite="table" scale="1.3" name="table"/>
+	<gf x="399" y="193"/>
+	<dad x="96" camxoffset="350" y="148" camyoffset="60"/>
+	<bf x="875" camxoffset="-140" camyoffset="-20" y="590"/>
+	<combo x="559" y="954"/>
+</stage>

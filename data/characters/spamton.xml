@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="spamboi" icon="icon-spamton">
+	<anim name="idle" anim="spam_idle0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="spam_left0" x="93" y="48" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="spam_down0" x="-5" y="-46" fps="24" loop="false"/>
+	<anim name="singUP" anim="spam_up0" x="5" y="65" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="spam_right0" x="-5" y="54" fps="24" loop="false"/>
+	<anim name="spam_angry" anim="spam_angry0" x="-3" y="0" fps="24" loop="true"/>
+	<anim name="spam_run" anim="spam_run0" x="95" y="85" fps="24" loop="true"/>
+</character>

@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "icon-conan",
+	"difficulties": [
+		"Hard"
+	],
+	"parsedColor": -610366,
+	"color": "#F6AFC2",
+	"name": "Joink",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Joink",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 150
+}

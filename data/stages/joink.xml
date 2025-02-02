@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="bg/joink/" zoom="0.6">
+	<sprite x="5" y="-260" sprite="mountains" name="mountains"/>
+	<sprite x="2" y="-17" sprite="hills" name="hi vechett"/>
+	<sprite x="2" y="0" sprite="ground" name="ground"/>
+	<gf x="822" scale="0.6" y="403"/>
+	<dad x="538" scale="0.6" y="168"/>
+	<bf scale="0.6" x="1029" y="459"/>
+	<combo x="853" y="918"/>
+</stage>

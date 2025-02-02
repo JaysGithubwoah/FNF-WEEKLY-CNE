@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="conan" x="-60" y="410" icon="icon-conan" color="#FFA3A8">
+	<anim name="singDOWN" anim="conan down0" x="-15" y="-49" fps="24" loop="false"/>
+	<anim name="idle" anim="conan idle0" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singLEFT" anim="conan left0" x="9" y="3" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="conan right0" x="-75" y="2" fps="24" loop="false"/>
+	<anim name="singUP" anim="conan up0" x="-35" y="79" fps="24" loop="false"/>
+</character>

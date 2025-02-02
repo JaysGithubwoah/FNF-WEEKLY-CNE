@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="watermelon" icon="icon-watermelon" color="#6FB860">
+	<anim name="idle" anim="watermelonidle0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="watermelonup0" x="-2" y="-5" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="watermelondown0" x="-4" y="-5" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="watermelonleft0" x="-4" y="-5" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="watermelonright0" x="-5" y="-5" fps="24" loop="false"/>
+</character>

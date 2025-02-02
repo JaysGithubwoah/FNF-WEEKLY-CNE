@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"Hard"
+	],
+	"icon": "icon-watermelon",
+	"parsedColor": -10750404,
+	"coopAllowed": true,
+	"name": "Fruity",
+	"color": "#5BF63C",
+	"stepsPerBeat": 4,
+	"displayName": "Fruity",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 140
+}
