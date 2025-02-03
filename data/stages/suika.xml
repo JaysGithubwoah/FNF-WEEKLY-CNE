@@ -1,11 +1,14 @@
 <!DOCTYPE codename-engine-stage>
 <stage folder="bg/suika/" zoom="1.05">
-	<sprite x="1" name="bg" sprite="bg" y="0"/>
-	<sprite name="boxback" sprite="box_back"/>
+	<sprite x="1" y="0" sprite="bg" name="bg"/>
+	<sprite sprite="box_back" name="boxback"/>
 	<gf x="625" y="378"/>
-	<sprite x="412" sprite="bgfruits" y="91" type="loop" name="bgfruits"/>
+	<sprite x="412" y="91" sprite="bgfruits" type="loop" name="bgfruits"/>
 	<dad x="407" y="406"/>
 	<bf x="764" y="486"/>
-	<combo x="106" y="322"/>
-	<sprite name="box_front" sprite="box_front"/>
+	<combo x="150" y="320"/>
+	<sprite sprite="box_front" name="box_front"/>
+	<sprite x="0" y="0" sprite="cloud" type="none" name="cloud">
+		<anim x="0" loop="false" y="0" fps="24" anim="CLOUD0" type="beat" name="idle"/>
+	</sprite>
 </stage>
