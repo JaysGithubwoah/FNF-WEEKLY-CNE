@@ -1,0 +1,16 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 115,
+	"difficulties": [
+		"Hard"
+	],
+	"needsVoices": true,
+	"parsedColor": -11080453,
+	"displayName": "Goo Weekly Mix",
+	"icon": "icon-boss",
+	"name": "Goo Weekly Mix",
+	"color": "#56ECFB"
+}
