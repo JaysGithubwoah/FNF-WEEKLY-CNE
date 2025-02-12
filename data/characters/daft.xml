@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character y="110" sprite="FrontScreen" icon="bot1" color="#8891F5">
+	<anim name="idle" anim="Idle0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="LeftLeft" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="DownLeft" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="UpLeft" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="RightLeft" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT-alt" anim="LeftRight" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN-alt" anim="DownRight" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP-alt" anim="UpRight" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT-alt" anim="RightRight" x="0" y="0" fps="24" loop="false"/>
+</character>

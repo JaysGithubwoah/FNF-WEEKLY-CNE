@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Speakers.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Speakers0000" x="0" y="1426" width="1132" height="451" frameX="0" frameY="-15" frameWidth="1132" frameHeight="466"/>
+	<SubTexture name="Speakers0001" x="0" y="2351" width="1122" height="451" frameX="-5" frameY="-15" frameWidth="1132" frameHeight="466"/>
+	<SubTexture name="Speakers0002" x="0" y="2351" width="1122" height="451" frameX="-5" frameY="-15" frameWidth="1132" frameHeight="466"/>
+	<SubTexture name="Speakers0003" x="0" y="1887" width="1118" height="454" frameX="-7" frameY="-12" frameWidth="1132" frameHeight="466"/>
+	<SubTexture name="Speakers0004" x="0" y="1887" width="1118" height="454" frameX="-7" frameY="-12" frameWidth="1132" frameHeight="466"/>
+	<SubTexture name="Speakers0005" x="0" y="1887" width="1118" height="454" frameX="-7" frameY="-12" frameWidth="1132" frameHeight="466"/>
+	<SubTexture name="Speakers0006" x="0" y="0" width="1111" height="465" frameX="-11" frameY="-1" frameWidth="1132" frameHeight="466"/>
+	<SubTexture name="Speakers0007" x="0" y="0" width="1111" height="465" frameX="-11" frameY="-1" frameWidth="1132" frameHeight="466"/>
+	<SubTexture name="Speakers0008" x="0" y="0" width="1111" height="465" frameX="-11" frameY="-1" frameWidth="1132" frameHeight="466"/>
+	<SubTexture name="Speakers0009" x="0" y="0" width="1111" height="465" frameX="-11" frameY="-1" frameWidth="1132" frameHeight="466"/>
+	<SubTexture name="Speakers0010" x="0" y="951" width="1110" height="465" frameX="-11" frameY="-1" frameWidth="1132" frameHeight="466"/>
+	<SubTexture name="Speakers0011" x="0" y="951" width="1110" height="465" frameX="-11" frameY="-1" frameWidth="1132" frameHeight="466"/>
+	<SubTexture name="Speakers0012" x="0" y="951" width="1110" height="465" frameX="-11" frameY="-1" frameWidth="1132" frameHeight="466"/>
+	<SubTexture name="Speakers0013" x="0" y="475" width="1108" height="466" frameX="-12" frameY="0" frameWidth="1132" frameHeight="466"/>
+	<SubTexture name="Speakers0014" x="0" y="475" width="1108" height="466" frameX="-12" frameY="0" frameWidth="1132" frameHeight="466"/>
+</TextureAtlas>
