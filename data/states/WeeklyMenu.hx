@@ -1,6 +1,6 @@
 import funkin.menus.ModSwitchMenu;
 import funkin.editors.EditorPicker;
-import flixel.addons.display.FlxBackdrop;
+import flixel.addons.display.FlxBackdrop; 
 
 var options:Array<String> = [
     'freeplay',
@@ -65,17 +65,12 @@ function create() {
 
 	add(bar = new FlxSprite().makeSolid(1233, 141, FlxColor.BLACK)).screenCenter(FlxAxes.X);
 	bar.y = 553.45;
-        
-    add(newsText = new FlxBackdrop(-70, 1080)).loadGraphic(Paths.image('menus/mainmenu/breaking')).antialiasing = Options.antialiasing;
-    newsText.velocity.set(180, 0);
-    newsText.scale.set(0.8,0.8);
-    newsText.y = 570;
-
-    add(newsTexttwo = new FlxBackdrop(-45, 1080)).loadGraphic(Paths.image('menus/mainmenu/breaking')).antialiasing = Options.antialiasing;
-    newsTexttwo.velocity.set(180, 0);
-    newsTexttwo.scale.set(0.8,0.8);
-    newsTexttwo.x = 490;
-    newsTexttwo.y = 570;
+    
+    add(newsTxt1 = new FlxText(1260, 562, 0, 'BREAKING NEWS!!! BREAKING NEWS!!! ').setFormat(Paths.font('VCR.ttf'), 40, FlxColor.WHITE)).antialiasing = Options.antialiasing;
+    add(newsTxt2 = new FlxText(40, 562, 0, 'BREAKING NEWS!!! BREAKING NEWS!!! ').setFormat(Paths.font('VCR.ttf'), 40, FlxColor.WHITE)).antialiasing = Options.antialiasing;
+    newsTxt2.x = newsTxt1.x;
+    FlxTween.tween(newsTxt1, {x: -734}, 4.25, {type: FlxTween.LOOPING});
+    FlxTween.tween(newsTxt2, {x: -734}, 4.25, {startDelay: 2.0, type: FlxTween.LOOPING}); 
 
     add(border = new FlxSprite(-19, -23)).loadGraphic(Paths.image('menus/mainmenu/border')).antialiasing = Options.antialiasing;
 }

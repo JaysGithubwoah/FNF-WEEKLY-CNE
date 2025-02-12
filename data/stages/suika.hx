@@ -1,6 +1,6 @@
 var doCameraForce:Bool = true;
 var forceCamZoomingOff:Bool = false;
-
+var p:Float;
 function postCreate(){
 
    forcedCameraPos = true;
@@ -24,7 +24,12 @@ function onNoteHit(event) {
     if (forceCamZoomingOff) event.enableCamZooming = false;
 }
 
-function update(e) if (forceCamZoomingOff) camHUD.zoom = lerp(camHUD.zoom, defaultHudZoom, camHUDZoomLerp);
+function update(e){ 
+if (forceCamZoomingOff) camHUD.zoom = lerp(camHUD.zoom, defaultHudZoom, camHUDZoomLerp);
+
+p++;
+cloud.x = 575 + (Math.sin(p/50 / (FlxG.updateFramerate / 60)) * 200);
+}
 
 function postUpdate(elapsed){
     

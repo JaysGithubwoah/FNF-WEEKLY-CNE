@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="sackboy" flipX="true" isPlayer="true" icon="icon-sack" color="#FFFF66" holdTime="6.1">
+	<anim name="idle" anim="Idle0" x="0" y="0" fps="12" loop="false"/>
+	<anim name="singDOWN" anim="Down0" x="0" y="-35" fps="12" loop="false"/>
+	<anim name="singLEFT" anim="Left0" x="40" y="2" fps="12" loop="false"/>
+	<anim name="singRIGHT" anim="Right0" x="-20" y="-5" fps="12" loop="false"/>
+	<anim name="singUP" anim="Up0" x="-7" y="14" fps="12" loop="false"/>
+	<anim name="Jef" anim="Jef0" x="7" y="-6" fps="12" loop="false"/>
+</character>

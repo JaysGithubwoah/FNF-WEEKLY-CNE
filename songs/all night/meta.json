@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 128,
+	"difficulties": [
+		"Hard"
+	],
+	"needsVoices": true,
+	"parsedColor": -7826955,
+	"displayName": "All Night",
+	"icon": "bot1",
+	"name": "all night",
+	"color": "#8891F5",
+	"customValues": {}
+}

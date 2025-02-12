@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="boss" camx="100" camy="50" icon="icon-boss" color="#70D2DE" holdTime="6.1">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN-alt" anim="altdown0" x="63" y="-31" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down0" x="23.5" y="-33" fps="24" loop="false"/>
+	<anim name="singRIGHT-alt" anim="altright0" x="49" y="-20" fps="24" loop="false"/>
+	<anim name="singLEFT-alt" anim="altleft0" x="122" y="-23" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right0" x="82.5" y="-18" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left0" x="56" y="-13" fps="24" loop="false"/>
+	<anim name="singUP" anim="up0" x="8.5" y="48" fps="24" loop="false"/>
+	<anim name="singUP-alt" anim="altup0" x="157.5" y="97" fps="24" loop="false"/>
+</character>

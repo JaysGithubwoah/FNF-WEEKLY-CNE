@@ -1,0 +1,1 @@
+function beatHit() if (lastAnimContext == 'DANCE') playAnim('idle', true, 'DANCE');  

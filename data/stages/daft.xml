@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="bg/daft punk/" zoom="1">
+	<gf/>
+	<dad x="400"/>
+	<bf x="620" y="200"/>
+	<combo/>
+</stage>

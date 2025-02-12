@@ -1,0 +1,16 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 140,
+	"difficulties": [
+		"Hard"
+	],
+	"needsVoices": true,
+	"parsedColor": -1,
+	"displayName": "Jeff The Kill You",
+	"icon": "icon-jeff",
+	"name": "jeff the kill you",
+	"color": "#FFFFFF"
+}

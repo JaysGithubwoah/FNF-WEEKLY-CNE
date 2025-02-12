@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="bg/tweaking/weeklyMix/" zoom="0.8" startCamPosX='350' startCamPosY='300'>
+	<gf scrolly="1" scrollx="1"/>
+	<sprite type="none" sprite="backgroundweeklymix" name="bg"/>
+	<dad x="-125" y="150"/>
+	<bf x="625" y="270"/>
+	<combo x="375"/>
+</stage>
