@@ -1,0 +1,1 @@
+function postCreate(){GameOverSubstate.script = 'data/scripts/death'; disable_camera_movement = true;}

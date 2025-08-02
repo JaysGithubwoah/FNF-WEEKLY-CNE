@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="kita" icon="icon-kita" color="#B94C69" flipx="true">
+	<anim name="idle" anim="kita idle0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="kita down0" x="50" y="-35" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="kita left0" x="85.5" y="26" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="kita right0" x="10" y="-5" fps="24" loop="false"/>
+	<anim name="singUP" anim="kita up0" x="55" y="95" fps="24" loop="false"/>
+</character>

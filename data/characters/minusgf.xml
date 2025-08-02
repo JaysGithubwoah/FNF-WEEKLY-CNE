@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="minus_gf" icon="gf" color="#A5004D">
+	<anim name="danceLeft" anim="dance0" x="0" y="0" fps="24" loop="false" indices="1..12"/>
+	<anim name="danceRight" anim="dance0" x="0" y="0" fps="24" loop="false" indices="14..28"/>
+	<anim name="sad" anim="sad0" x="-28" y="17" fps="24" loop="false"/>
+</character>

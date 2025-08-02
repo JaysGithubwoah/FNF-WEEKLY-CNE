@@ -3,7 +3,7 @@
 	<gf/>
 	<dad/>
 	<sprite x="177" y="37" sprite="tweakingpeggle" name="bg"/>
-	<bf scale="1.1" x="513" y="50"/>
+	<bf scale="1" x="505" y="60"/>
 	<combo/>
-	<sprite x="178" y="72" sprite="susPegle" scale="1.1" name="border"/>
+	<sprite x="225" y="70" sprite="susPegle" scale="1.25" name="border"/>
 </stage>

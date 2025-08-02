@@ -1,0 +1,15 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "icon-kita",
+	"difficulties": [
+		"HARD"
+	],
+	"color": "#EB6464",
+	"name": "perfect girl",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Perfect Girl",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 168
+}

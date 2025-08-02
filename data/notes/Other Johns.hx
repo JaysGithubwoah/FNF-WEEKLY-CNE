@@ -1,7 +1,4 @@
-function onNoteHit(e){
-    if (e.noteType == "Noobador Note"){
-        e.cancelAnim();
-        strumLines.members[2].characters[0].playSingAnim(e.direction, e.animSuffix, null, true);
-        strumLines.members[3].characters[0].playSingAnim(e.direction, e.animSuffix, null, true);
-    }
-}
+//that was easy.
+function onNoteHit(e)
+if(e.noteType == "Other Johns")
+e.characters = strumLines.members[2].characters;

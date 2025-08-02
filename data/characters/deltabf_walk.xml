@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="deltabf_walk" flipX="true" isPlayer="true" icon="icon-bf-deltarune" color="#D47CA9" flipx="true">
+	<anim name="idle" anim="bfwalk_idle0" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singDOWN" anim="bf_walkdown0" x="-65" y="-40" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="bfwalk_left0" x="0" y="-10" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="bfwalk_right0" x="-43" y="-14" fps="24" loop="false"/>
+	<anim name="singUP" anim="bfwalk_up0" x="40" y="10" fps="24" loop="false"/>
+	<anim name="miss" anim="BF NOTE walk miss0" x="0" y="0" fps="24" loop="false"/>
+</character>

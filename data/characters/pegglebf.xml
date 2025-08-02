@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character sprite="pegglebf" isPlayer="true" icon="icon-bf-peggle" color="#FFFFFF">
+<character sprite="pegglebf" isPlayer="true" icon="icon-bf-peggle" color="#1CFF00">
 	<anim name="idle" anim="IDLE0" x="0" y="0" fps="24" loop="false"/>
 	<anim name="singLEFT" anim="LEFT0" x="0" y="0" fps="24" loop="false"/>
 	<anim name="singDOWN" anim="DOWN0" x="0" y="0" fps="24" loop="false"/>

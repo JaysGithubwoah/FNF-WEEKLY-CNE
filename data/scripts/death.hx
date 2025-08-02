@@ -1,43 +1,64 @@
 import hxvlc.flixel.FlxVideoSprite;
+import flixel.FlxCamera;
+import flixel.util.FlxAxes;
+import funkin.backend.MusicBeatState;
 
-public static var gameoverVid = new FlxVideoSprite(0, 0);
+var gameoverVid:FlxVideoSprite = new FlxVideoSprite(0, 0);
 
-var black:FlxSprite;
+var camDie:FlxCamera;
 
 var sus:Bool = false;
 
 public var vidScale:Int = 1;
 
 function postCreate() {
-		black = new FlxSprite(0, 0).makeGraphic(FlxG.width * 10, FlxG.height * 10, FlxColor.BLACK);
-		black.scrollFactor.set();
-		black.screenCenter(FlxAxes.XY);
-		add(black);
+	camDie = new FlxCamera();
+	camDie.bgColor = FlxColor.TRANSPARENT;
+	FlxG.cameras.add(camDie, false);
 	
-		gameoverVid.load(Assets.getPath(Paths.file("videos/" + PlayState.SONG.meta.displayName + "_gameover.mp4")));  
-		gameoverVid.x = 0;
-		add(gameoverVid);
-		gameoverVid.scale.set(vidScale, vidScale);
-		gameoverVid.updateHitbox();
-		gameoverVid.scrollFactor.set();
-		gameoverVid.play();
-		gameoverVid.antialiasing = true;
+	gameoverVid = new FlxVideoSprite(0, 0);
+//	gameoverVid.screenCenter();
+	gameoverVid.load(Assets.getPath(Paths.file("videos/" + PlayState.SONG.meta.displayName + "_gameover.mp4")));
+	gameoverVid.cameras = [camDie];
+	gameoverVid.bitmap.onEndReached.add(
+		function()
+		{
+			MusicBeatState.skipTransOut = true;
+			new FlxTimer().start(0.1, ()->{ FlxG.switchState(new PlayState()); });
+		}
+	);
+	add(gameoverVid);
+	gameoverVid.play();
+}
+
+function onGameOver(e){
+e.cancel();
+FlxTween.globalManager.clear();
+
+persistentUpdate = false;
+persistentDraw = false;
+paused = true;
+canPause = false;
+
+vocals.stop();
+
+camGame.visible = camHUD.visible = false;
 }
 
 function update(){
-		    //FlxG.camera.zoom = 0.1;
 	lossSFX.volume = 0;
 	if (FlxG.sound.music != null) {
 		FlxG.sound.music.stop();
 	}
 	if (controls.BACK || controls.ACCEPT){
 		if (!sus){
+			MusicBeatState.skipTransOut = true;
 			FlxG.switchState(new PlayState());
 			sus = true;
 			gameoverVid.destroy();
 		}
 	}
 	if (sus) {
-		FlxG.camera.alpha = 0;
+		FlxG.camera.visible = false;
 	}
 }

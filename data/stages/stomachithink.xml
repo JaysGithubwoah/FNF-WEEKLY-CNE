@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosY="350" startCamPosX="625">
+	<gf scroll="1"/>
+	<dad/>
+	<bf/>
+	<combo x="99999"/>
+</stage>

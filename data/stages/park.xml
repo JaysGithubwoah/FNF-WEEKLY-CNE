@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="bg/minus/" zoom="0.6">
+	<sprite x="-1020" y="-1250" sprite="sky" type="none" name="sky" scale="1.3"/>
+	<sprite x="-1300" y="-815" sprite="back" type="none" name="bg"/>
+	<sprite x="-1080" y="-235" sprite="crowd" type="none" name="crowd">
+		<anim x="0" loop="false" y="0" fps="24" anim="crowd0" type="beat" name="idle"/>
+	</sprite>
+	<sprite x="-1365" y="-650" sprite="front" type="none" name="ground"/>
+	<gf scrolly="1" x="380" camxoffset="-100" y="-65" camyoffset="25" scrollx="1"/>
+	<dad x="-400" y="275"/>
+	<bf x="1100" y="190" camxoffset="-100" camyoffset="30" />
+	<combo x="705"/>
+</stage>

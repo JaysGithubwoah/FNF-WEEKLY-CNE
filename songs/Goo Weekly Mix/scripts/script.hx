@@ -8,27 +8,28 @@ import flixel.effects.FlxFlicker;
 import flixel.text.FlxText;
 import flixel.text.FlxTextBorderStyle;
 import flixel.text.FlxTextAlign;
-function create(){
-camHUD.alpha = 0;}
+
+function create(){camHUD.alpha = 0;}
 //kino fade in intro
 introLength = 0;
-function onCountdown(event){
-event.cancel();
+function onCountdown(event){event.cancel();
 camera.fade(FlxColor.BLACK, 0.01);}
-function onSongStart(){
-camera.fade(FlxColor.BLACK, 7.75, true);}
+
+function onSongStart(){camera.fade(FlxColor.BLACK, 7.75, true);}
+
 function beatHit(){
 switch(curBeat){
 case 15: FlxTween.tween(camHUD, {alpha: 1}, 0.5, {ease: FlxEase.linear});
 case 112: funnyBars();
 case 144: funnyBarsOff();
-case 224: camGame.alpha = 0;
+case 224: camGame.alpha = camHUD.alpha = 0;
 case 226: peace();
-case 227: quote1();
-case 229: quote2();}}
-function stepHit(curStep:Int){
-switch(curStep){
-case 942: bossJumpscare();}}
+case 227: quote1(); 
+case 229: quote2(); 
+}}
+
+function stepHit(curStep:Int){switch(curStep){case 942: bossJumpscare();}}
+
 function postCreate(){
 //kino text
 prostate = new FlxText(1280, 100);
@@ -42,7 +43,8 @@ prostate.screenCenter();
 prostate.borderSize = 3;
 prostate.visible = false;
 add(prostate);
-//you knows what crazy? that low taper fade meme is still MASSIVE dude. massive. IT IS!
+
+//you know whats crazy? that low taper fade meme is still MASSIVE dude. massive. IT IS!
 barTop = new FlxSprite().makeGraphic(Std.int(FlxG.width * 2), Std.int(68), FlxColor.BLACK);
 barTop.screenCenter(FlxAxes.X);
 barTop.cameras = [camHUD];
@@ -55,6 +57,7 @@ insert(getObjectOrder(healthBarBG) - 12, barTop);
 insert(getObjectOrder(healthBarBG) - 12, barBottom);
 add(barTop);
 add(barBottom);}
+
 //funny bar functions
 function funnyBars() {
 FlxTween.tween(barTop, {y: 0}, 1, {ease: FlxEase.expoOut});

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="minuspico" icon="icon-pico" color="#B7D855" holdTime="6.1">
+	<anim name="idle" anim="idle0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down0" x="5" y="-120" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right0" x="-40" y="-30" fps="24" loop="false"/>
+	<anim name="singUP" anim="up0" x="-30" y="85" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left0" x="45" y="15" fps="24" loop="false"/>
+</character>
