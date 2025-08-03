@@ -16,7 +16,7 @@ function create() {
     add(dad);
     add(boyfriend);
 
-    boyfriend.flipX = true;
+    boyfriend.flipX = false;
     boyfriend.x = 450;
     boyfriend.y -= 25;
     boyfriend.cameraOffset.y += 75;
@@ -32,7 +32,7 @@ function create() {
 }
 
 function postCreate() {
-remove(iconP2);
+iconP2.visible = false;
 strumLines.members[0].visible = false;
 gf.visible = false;
 dad.visible = false;
@@ -42,7 +42,7 @@ strumLines.members[2].characters[1].visible = false;
 function beatHit(curBeat:Int) {
     switch(curBeat){
         //6... 7... so tuff...  2 johns
-        case 67: strumLines.members[0].visible = true; 
+        case 67: strumLines.members[0].visible = true; iconP2.visible = true;
             for (i in 0...strumLines.members[0].members.length){
             FlxTween.tween(strumLines.members[0].members[i], {x: 75 + 110 * i}, 1, {ease:FlxEase.circOut});
             FlxTween.tween(strumLines.members[1].members[i], {x: 750 + 110 * i}, 1, {ease:FlxEase.circOut});
@@ -79,7 +79,7 @@ function stepHit(curStep:Int) {
         case 805: remove(healthBar); remove(healthBarBG); remove(missesTxt);
         case 806: gf.visible = false; 
         case 807: dad.visible = false; strumLines.members[2].characters[1].visible = false; remove(accuracyTxt);
-        case 808: boyfriend.alpha = 0;
+        case 808: boyfriend.alpha = 0; iconP2.visible = false;
         case 809: camGame.alpha = camHUD.alpha = 0;
     }
 }

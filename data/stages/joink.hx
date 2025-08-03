@@ -12,13 +12,14 @@ function new(){
 }
 
 function postCreate(){
-
+   dad.moves = true;
    forcedCameraPos = true;
    FlxG.camera.followLerp = 0;
    camGame.scroll.x = 230;
    camGame.scroll.y = 80;
 }
 
+//bro fix this shit it puts a black box on my screen when i exit the song
 
 function destroy()
    windowShit(1280, 720, 1);
@@ -50,8 +51,5 @@ function aspectShit(width:Int, height:Int):String {
 }
 
 function onCameraMove(e) if (doCameraForce) camGame.scroll.x = (curCameraTarget == 0 ? 560 : -130);
-function onNoteHit(event) {
-    if (forceCamZoomingOff) event.enableCamZooming = false;
-}
-
+function onNoteHit(event) {if (forceCamZoomingOff) event.enableCamZooming = false;}
 function update(e) if (forceCamZoomingOff) camHUD.zoom = lerp(camHUD.zoom, defaultHudZoom, camHUDZoomLerp);

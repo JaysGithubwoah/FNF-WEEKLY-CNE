@@ -7,9 +7,16 @@ var kinoTween:FlxTween;
 //pathing
 var path1:String = 'bg/tweaking/';
 var path2:String = 'bg/tweaking/weeklyMix/';
+//zoom vars
+var zoom = 0.35;
+var zoom2 = 0.2;
+
+function onPlayerHit(event:NoteHitEvent){
+event.ratingScale = zoom * 1;
+//little numbers dont show up
+minDigitDisplay = 99999;}
 
 function create(){
-//yo can someone resize the combo thing for me it's too big and i can't figure it out
 //camera for da shite
 camOther = new FlxCamera(0, 0);
 camOther.bgColor = FlxColor.TRANSPARENT;
@@ -54,9 +61,9 @@ new FlxTimer().start(0.1, function(tmr:FlxTimer){bfjumpscare.alpha = 0;});}
 public function bossJumpscare(){bossjumpscare.alpha = 1;}
 public function peace(){FlxTween.tween(quoteBG, {alpha: 1}, 7.5, {ease: FlxEase.expoOut});}
 
-//something about these is weird i feel like but im so tired im not working on this no more
-public function quote1(){FlxTween.tween(quote1, {alpha: 1}, 2, {ease: FlxEase.linear});}
-public function quote2(){FlxTween.tween(quote2, {alpha: 1}, 2, {ease: FlxEase.linear});}
+//better now
+public function quoteTween(){FlxTween.tween(quote1, {alpha: 1}, 2, {ease: FlxEase.linear, onComplete: () -> {
+FlxTween.tween(quote2, {alpha: 1}, 1, {ease: FlxEase.linear});}});}
 
 //icon bops
 function beatHit(){

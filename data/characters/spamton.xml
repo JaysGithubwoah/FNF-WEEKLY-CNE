@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character sprite="spamboi" icon="icon-spamton">
+<character sprite="spamboi" icon="icon-spamton" color="#E1E1E1">
 	<anim name="idle" anim="spam_idle0" x="0" y="0" fps="24" loop="false"/>
 	<anim name="singLEFT" anim="spam_left0" x="93" y="48" fps="24" loop="false"/>
 	<anim name="singDOWN" anim="spam_down0" x="-5" y="-46" fps="24" loop="false"/>

@@ -1,6 +1,12 @@
 import flixel.addons.display.FlxBackdrop;
 
 var walkDown:Bool = false;
+var doCameraForce:Bool = true;
+
+
+function onCountdown(event:CancellableEvent)
+event.cancel();
+introLength = 1;
 
 function create(){
 camHUD.visible = false;
@@ -22,7 +28,7 @@ remove(dad);
 remove(boyfriend);
 
 add(bg = new FlxBackdrop().loadGraphic(Paths.image('bg/bocchibg'), FlxAxes.Y, 0, 0)).antialiasing = Options.antialiasing;
-bg.y -= 280;
+bg.y -= 360;
 bg.velocity.x = 75;
 
 add(dad);
@@ -32,6 +38,9 @@ boyfriend.x += 150;
 boyfriend.cameraOffset.x -= 250;
 boyfriend.y = -0;
 dad.y = 0;
+//better i guess??
+dad.cameraOffset.y -= 50;
+boyfriend.cameraOffset.y -= 50;
 }
 
 function postCreate(){
@@ -48,6 +57,7 @@ function postCreate(){
     add(barBottom);
 }
 
+function onCameraMove(e) if (doCameraForce) camGame.scroll.y = (curCameraTarget == 0 ? 0 : 0);
 
 function beatHit()
 {

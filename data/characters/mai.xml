@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="mai" icon="icon-mai" color="#74543B" holdTime="6.1">
+	<anim name="idle" anim="idle0" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singDOWN" anim="down0" x="0" y="-1" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="up0" x="0" y="5" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left0" x="0" y="1" fps="24" loop="false"/>
+</character>

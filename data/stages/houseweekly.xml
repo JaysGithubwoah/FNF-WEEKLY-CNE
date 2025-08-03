@@ -4,5 +4,5 @@
 	<sprite type="none" name="bg" sprite="backgroundweeklymix"/>
 	<dad scale="0.65" x="100" y="95"/>
 	<bf scale="0.55" x="560" y="220" camyoffset="75"/>
-	<combo x="375"/>
+	<combo x="500"/>
 </stage>

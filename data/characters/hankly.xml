@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="hankly" icon="icon-hank" color="#4D3759" holdTime="6.1">
+	<anim name="idle" anim="hankidle0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="hankdown0" x="-45" y="-46" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="hankleft0" x="0" y="-10" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="hankright0" x="-90" y="-5" fps="24" loop="false"/>
+	<anim name="singUP" anim="hankup0" x="8" y="51" fps="24" loop="false"/>
+</character>

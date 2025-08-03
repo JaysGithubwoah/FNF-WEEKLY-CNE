@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="mio" icon="icon-mio" color="#8FBEF7" holdTime="6.1">
+	<anim name="idle" anim="idle0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down0" x="1" y="-9" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right0" x="0" y="-3" fps="24" loop="false"/>
+	<anim name="singUP" anim="up0" x="0" y="9" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left0" x="11" y="-4" fps="24" loop="false"/>
+</character>

@@ -24,8 +24,7 @@ case 112: funnyBars();
 case 144: funnyBarsOff();
 case 224: camGame.alpha = camHUD.alpha = 0;
 case 226: peace();
-case 227: quote1(); 
-case 229: quote2(); 
+case 227: quoteTween();
 }}
 
 function stepHit(curStep:Int){switch(curStep){case 942: bossJumpscare();}}

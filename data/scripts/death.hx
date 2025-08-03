@@ -9,24 +9,16 @@ var camDie:FlxCamera;
 
 var sus:Bool = false;
 
-public var vidScale:Int = 1;
-
 function postCreate() {
 	camDie = new FlxCamera();
 	camDie.bgColor = FlxColor.TRANSPARENT;
 	FlxG.cameras.add(camDie, false);
 	
 	gameoverVid = new FlxVideoSprite(0, 0);
-//	gameoverVid.screenCenter();
 	gameoverVid.load(Assets.getPath(Paths.file("videos/" + PlayState.SONG.meta.displayName + "_gameover.mp4")));
 	gameoverVid.cameras = [camDie];
 	gameoverVid.bitmap.onEndReached.add(
-		function()
-		{
-			MusicBeatState.skipTransOut = true;
-			new FlxTimer().start(0.1, ()->{ FlxG.switchState(new PlayState()); });
-		}
-	);
+	function(){MusicBeatState.skipTransOut = true; new FlxTimer().start(0.1, ()->{FlxG.switchState(new PlayState());});} );
 	add(gameoverVid);
 	gameoverVid.play();
 }

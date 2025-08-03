@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosY="1" folder="bg/nichijou/" startCamPosX="1" zoom="0.8">
+	<sprite x="-651" y="-549" sprite="bg" type="none" name="bg"/>
+	<combo x="486" y="47"/>
+	<char x="620" name="mai" flip="true" y="217"/>
+	<gf scrolly="1" x="260" flip="true" y="225" scrollx="1"/>
+	<dad x="-30" y="205"/>
+	<bf x="890" camxoffset="-75" y="115"/>
+	<sprite x="-700" y="-555" sprite="gradient" type="none" name="gradient"/>
+</stage>

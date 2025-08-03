@@ -6,6 +6,7 @@ event.cancel();
 function create(){
     //cam zoom
     defaultCamZoom = 1;
+    FlxG.keys.enabled = false;
 
     FlxG.sound.play(Paths.sound("jeff"));
     trace('cutsceneStart');
@@ -24,6 +25,7 @@ function create(){
         {   
             inst.pitch = 1;
             vocals.pitch = 1;
+            FlxG.keys.enabled = true;
 });
 
 //song doesn't start until timer finishes
