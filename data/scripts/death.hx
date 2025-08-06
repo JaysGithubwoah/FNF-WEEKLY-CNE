@@ -2,18 +2,24 @@ import hxvlc.flixel.FlxVideoSprite;
 import flixel.FlxCamera;
 import flixel.util.FlxAxes;
 import funkin.backend.MusicBeatState;
+import funkin.backend.system.framerate.Framerate;
 
 var gameoverVid:FlxVideoSprite = new FlxVideoSprite(0, 0);
 
 var camDie:FlxCamera;
 
 var sus:Bool = false;
-
+function create(e) {e.gameOverSong = 'dead';}
 function postCreate() {
+	//hide fps counter so it doesn't block videos
+	Framerate.debugMode = 0;
+
+	//camera for death video
 	camDie = new FlxCamera();
 	camDie.bgColor = FlxColor.TRANSPARENT;
 	FlxG.cameras.add(camDie, false);
 	
+	//setting up the video
 	gameoverVid = new FlxVideoSprite(0, 0);
 	gameoverVid.load(Assets.getPath(Paths.file("videos/" + PlayState.SONG.meta.displayName + "_gameover.mp4")));
 	gameoverVid.cameras = [camDie];
@@ -54,3 +60,6 @@ function update(){
 		FlxG.camera.visible = false;
 	}
 }
+
+//fps counter visible again when leaving game over
+function destroy() {Framerate.debugMode = 1;}
