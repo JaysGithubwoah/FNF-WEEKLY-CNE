@@ -5,7 +5,6 @@
 		"HARD"
 	],
 	"color": "#E79459",
-	"name": "motivation",
 	"coopAllowed": true,
 	"stepsPerBeat": 4,
 	"displayName": "Motivation",
